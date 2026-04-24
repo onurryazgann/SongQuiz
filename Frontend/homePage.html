@@ -9,15 +9,47 @@
 
 <body>
     <header>
-        <div class="container">
-            <div class="header-left">
-                <span style="color: white;">Guess the Song!</span>
+        <div class="header-container">
+
+            <div class="header-logo-group">
+                <span class="logo-dot"></span>
+
+                <div class="header-left">
+                    <span style="color: rgb(80, 211, 63);">SongQuiz</span>
+                </div>
+
+                <span class="logo-dot"></span>
             </div>
+
             <div class="header-right">
                 <button class="login-button">Log In</button>
                 <button class="signup-button">Sign up</button>
             </div>
+
         </div>
     </header>
+    <main>
+        <section class="popular-section">
+            <div class="carousel-area">
+                <button class="carousel-nav prev-button" id="prevButton">‹</button>
+
+                <div class="carousel-track" id="carouselTrack"></div>
+
+                <button class="carousel-nav next-button" id="nextButton">›</button>
+            </div>
+
+            <div class="quiz-info">
+                <h2>Popular Quizzes</h2>
+                <p>
+                    Join thousands of music lovers testing their knowledge with our most
+                popular quizzes. From chart-topping hits to legendary classics, discover
+                what makes these challenges so addictive.
+                </p>
+
+                <button>Explore All Quizzes</button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
